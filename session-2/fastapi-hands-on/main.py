@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 import uvicorn
-# from .routers import news, summary
 from app.routers import news, summary
 
 app = FastAPI()
